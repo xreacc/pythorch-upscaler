@@ -9,9 +9,10 @@ it upsclaes 4x in 128x128 chunks (that can be changed) so there are visible line
 
 and also if the image had artifacts they will also be visible in the upscaled version
 
-other than that it looks a more blurry than i would've wanted but i think if i add more unet layers and/or train it for longer that will improve
+other than that it looks a more blurry than i would've wanted but i think if i [add more](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) unet layers and/or train it for longer that will improve
 :-------------------------:
 ![](images/plt_plot.png)
+(input, model output, target) 
 
 
 maybe it will be better if i train it with more data (duh)
