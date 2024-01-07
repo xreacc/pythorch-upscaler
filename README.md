@@ -1,10 +1,13 @@
 # pythorch-upscaler
 ## not the best but good enough as a small project
 ![](images/anime_girl2.png)
-
+### usage
+(if someone wants to run that for some reason)
+python use_model.py [input image name] [output image name]
+### data
 the dataset used is DIV2K_train_LR_bicubic 
 - 800 images in X2 folder as target data and i downstacled them as input data
-
+### some info
 it upsclaes 4x in 128x128 chunks (that can be changed) so there are visible lines in the upscaled images (if the input image is more than 128px)
 
 and also if the image had artifacts they will also be visible in the upscaled version
