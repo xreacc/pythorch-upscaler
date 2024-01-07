@@ -3,7 +3,9 @@
 ![](images/anime_girl2.png)
 ### usage
 (if someone wants to run that for some reason)
-python use_model.py [input image name] [output image name]
+```
+python use_model.py input_image.png output_image.png
+```
 ### data
 the dataset used is DIV2K_train_LR_bicubic 
 - 800 images in X2 folder as target data and i downstacled them as input data
